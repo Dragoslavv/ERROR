@@ -57,7 +57,7 @@ function readFile1( $filename )
         $mail->Username = "dragoslav.predojevic@procescom.com";
         $mail->Password = "Gagi4321";
         $mail->SetFrom("gagipredojevic65@gmail.com","Dragoslav");
-        $mail->SetFrom("milos.vesic@procescom.com","Milos");
+//        $mail->SetFrom("milos.vesic@procescom.com","Milos");
 
         $mail->Subject = "Read the log file";
         $mail->Body = ".$array2string.";
